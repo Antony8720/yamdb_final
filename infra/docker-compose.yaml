@@ -13,8 +13,6 @@ services:
   
 
   web:
-    build: ../api_yamdb/
-    restart: always
     image: antony8720/api_yamdb:latest
     volumes:
       - static_value:/app/static/
