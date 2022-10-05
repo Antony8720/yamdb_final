@@ -13,7 +13,7 @@ services:
   
 
   web:
-    image: antony8720/api_yamdb
+    image: antony8720/api_yamdb:latest
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
